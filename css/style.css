@@ -4,3 +4,67 @@
     padding: 0;
     box-sizing: border-box;
 }
+/*reset*/
+
+/*common*/
+.flex{
+    display: flex;
+}
+.box{
+width: calc(100% / 3 - 20px) ;
+margin: 20px 10px 20px 10px;
+box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+img{
+width: 100%;
+height: 100%;
+}
+.cover{
+position: absolute;
+left: 0;
+transition: 1s;
+}
+.tagbox{
+    display: flex;
+    position: absolute;
+    bottom: 20px;
+}
+.sconto{
+    background-color: red;
+    padding: 5px 8px;
+    color: white;
+    font-size: 12px;
+    margin-right: 5px;
+}
+.tag1{
+    background-color: green;
+    padding: 5px 8px;
+    color: white;
+    font-size: 12px;
+}
+.cuore{
+    background-color: white;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+.cuore:hover{
+    color: red;
+}
+.card{
+   position: relative;
+   cursor: pointer; 
+}
+.cover:hover{
+    opacity: 0;
+}
+/*common*/
+
+/*main*/
+.contenitore{
+    max-width: 1000px;
+    margin:0 auto;
+    flex-wrap: wrap;
+}
+/*main*/
